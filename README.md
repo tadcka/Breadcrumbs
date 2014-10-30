@@ -1,6 +1,10 @@
 Breadcrumbs
 ===========
 
+[![Build Status](https://scrutinizer-ci.com/g/tadcka/Breadcrumbs/badges/build.png?b=master)](https://scrutinizer-ci.com/g/tadcka/Breadcrumbs/build-status/master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/tadcka/Breadcrumbs/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/tadcka/Breadcrumbs/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/tadcka/Breadcrumbs/badges/build.png?b=master)](https://scrutinizer-ci.com/g/tadcka/Breadcrumbs/build-status/master)
+
 Breadcrumbs component.
 
 ## Installation
