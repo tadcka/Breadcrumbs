@@ -2,7 +2,7 @@
     "name":         "tadcka/breadcrumbs",
     "homepage":     "https://github.com/tadcka/Breadcrumbs",
     "description":  "Breadcrumbs component",
-    "keywords":     ["breadcrumbs", "breadcrumbs component"],
+    "keywords":     ["breadcrumb", "breadcrumbs"],
     "type":         "component",
     "license":      "MIT",
     "authors": [
@@ -22,7 +22,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0.x-dev"
+            "dev-master": "2.0.x-dev"
         }
     }
 }
