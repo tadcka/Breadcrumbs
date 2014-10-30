@@ -1,7 +1,7 @@
 {
     "name":         "tadcka/breadcrumbs",
     "homepage":     "https://github.com/tadcka/Breadcrumbs",
-    "description":  "Paginator component",
+    "description":  "Breadcrumbs component",
     "keywords":     ["breadcrumbs", "breadcrumbs component"],
     "type":         "component",
     "license":      "MIT",
