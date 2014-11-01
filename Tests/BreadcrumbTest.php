@@ -55,9 +55,14 @@ class BreadcrumbTest extends \PHPUnit_Framework_TestCase
         $this->breadcrumb->add('title_1', 'url_1');
         $this->breadcrumb->add('title_2', 'url_2');
 
+        $count = 0;
         foreach ($this->breadcrumb as $key => $item) {
+            $count++;
+
             $this->assertEquals('title_' . $key, $item['title']);
             $this->assertEquals('url_' . $key, $item['url']);
         }
+
+        $this->assertEquals(3, $count);
     }
 }

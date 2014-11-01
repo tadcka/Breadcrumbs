@@ -16,13 +16,8 @@ namespace Tadcka\Component\Breadcrumbs;
  *
  * @since 10/30/14 11:20 PM
  */
-class Breadcrumb implements \Iterator
+class Breadcrumb implements \Iterator, \Countable
 {
-    /**
-     * @var int
-     */
-    private $key = 0;
-
     /**
      * @var array
      */
@@ -33,7 +28,7 @@ class Breadcrumb implements \Iterator
      */
     public function current()
     {
-        return $this->items[$this->key()];
+        return current($this->items);
     }
 
     /**
@@ -41,7 +36,7 @@ class Breadcrumb implements \Iterator
      */
     public function next()
     {
-        $this->key++;
+        next($this->items);
     }
 
     /**
@@ -49,7 +44,7 @@ class Breadcrumb implements \Iterator
      */
     public function key()
     {
-        return $this->key;
+        return key($this->items);
     }
 
     /**
@@ -65,7 +60,15 @@ class Breadcrumb implements \Iterator
      */
     public function rewind()
     {
-        $this->key = 0;
+        reset($this->items);
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function count()
+    {
+        return count($this->items);
     }
 
     /**
