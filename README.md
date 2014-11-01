@@ -29,13 +29,13 @@ $ php composer.phar update tadcka/breadcrumbs
 
 ### Step 2: How use?
 
-Create breadcrumbs object:
+Create breadcrumb object:
 
 ``` php
 <?php
-$breadcrumbs = new \Tadcka\Component\Breadcrumbs\Breadcrumbs();
-$breadcrumbs->add('acme', '/acme');
-$breadcrumbs->add('hello');
+$breadcrumb = new \Tadcka\Component\Breadcrumbs\Breadcrumb();
+$breadcrumb->add('acme', '/acme');
+$breadcrumb->add('hello');
 ```
 
 Render html with twig:
