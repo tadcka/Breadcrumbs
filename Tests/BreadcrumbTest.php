@@ -64,5 +64,13 @@ class BreadcrumbTest extends \PHPUnit_Framework_TestCase
         }
 
         $this->assertEquals(3, $count);
+
+        // Double iterator.
+        foreach ($this->breadcrumb as $key => $item) {
+            $count++;
+
+            $this->assertEquals('title_' . $key, $item['title']);
+            $this->assertEquals('url_' . $key, $item['url']);
+        }
     }
 }
