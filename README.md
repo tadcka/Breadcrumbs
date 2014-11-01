@@ -42,16 +42,8 @@ Render html with twig:
 
 ``` twig
 <ul class="breadcrumb">
-    {% if breadcrumbs.getUseHomePage() %}
-        <li><a href="/home-page">Home page</a></li>
-    {% endif %}
-
-    {% for part in breadcrumbs.getParts() %}
-        {% if part['url'] is not empty %}
-            <li><a href="{{ part['url'] }}">{{ part['title'] }}</a></li>
-        {% else %}
-            <li class="active">{{ part['title'] }}</li>
-        {% endif %}
+    {% for item in breadcrumb %}
+        <li><a href="{{ item.url is not empty ? item.url : 'javascript:;' }}">{{ item.title }}</a></li>
     {% endfor %}
 </ul>
 ```
