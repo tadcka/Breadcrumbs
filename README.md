@@ -4,6 +4,7 @@ Breadcrumbs
 [![Build Status](https://scrutinizer-ci.com/g/tadcka/Breadcrumbs/badges/build.png?b=master)](https://scrutinizer-ci.com/g/tadcka/Breadcrumbs/build-status/master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/tadcka/Breadcrumbs/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/tadcka/Breadcrumbs/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/tadcka/Breadcrumbs/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/tadcka/Breadcrumbs/?branch=master)
+[![Latest Stable Version](https://poser.pugx.org/tadcka/breadcrumbs/v/stable.svg)](https://packagist.org/packages/tadcka/breadcrumbs) [![Total Downloads](https://poser.pugx.org/tadcka/breadcrumbs/downloads.svg)](https://packagist.org/packages/tadcka/breadcrumbs) [![Latest Unstable Version](https://poser.pugx.org/tadcka/breadcrumbs/v/unstable.svg)](https://packagist.org/packages/tadcka/breadcrumbs) [![License](https://poser.pugx.org/tadcka/breadcrumbs/license.svg)](https://packagist.org/packages/tadcka/breadcrumbs)
 
 Breadcrumbs component.
 
