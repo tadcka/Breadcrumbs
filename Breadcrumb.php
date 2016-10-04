@@ -87,6 +87,16 @@ class Breadcrumb implements \Iterator, \Countable
     }
 
     /**
+     * @param int $key
+     *
+     * @return array|null
+     */
+    public function get($key)
+    {
+        return isset($this->items[$key]) ? $this->items[$key] : null;
+    }
+
+    /**
      * Truncate string.
      *
      * @param string $string
