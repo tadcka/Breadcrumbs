@@ -73,4 +73,13 @@ class BreadcrumbTest extends \PHPUnit_Framework_TestCase
             $this->assertEquals('url_' . $key, $item['url']);
         }
     }
+
+    public function testGet()
+    {
+        $this->breadcrumb->add('title_0', 'url_0');
+        $this->breadcrumb->add('title_1', 'url_1');
+
+        $this->assertEquals($this->breadcrumb->get(0), ['title' => 'title_0', 'url' => 'url_0']);
+        $this->assertEquals($this->breadcrumb->get(1), ['title' => 'title_1', 'url' => 'url_1']);
+    }
 }
